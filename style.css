@@ -1,0 +1,52 @@
+ th{
+    background-color: red;
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FFFFFF;
+   
+}
+tr:nth-last-child(odd){
+    background-color: #F3F3F3;
+}
+body{
+    text-align: center;
+    background-color: #FBE4E4;
+    justify-content: left;
+   
+}
+
+td,tr,th{
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    /* background: #000; */
+    padding: 0 40px;
+    color: red;
+}
+
+.main-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+}
+
+.main>img{
+    width: 200px;
+}
+
+#profile-logo{
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+
