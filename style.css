@@ -6,6 +6,7 @@ table{
     text-align: center;
     background-color: #FFFFFF;
     padding: 20px;
+    margin: auto;
    
 }
 tr:nth-last-child(odd){
@@ -15,6 +16,7 @@ body{
     text-align: center;
     background-color: #FBE4E4;
     justify-content: left;
+    margin: auto;
    
 }
 
