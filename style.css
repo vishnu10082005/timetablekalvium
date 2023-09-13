@@ -2,24 +2,36 @@
     background-color: red;
 }
 table{
-    border: 1px solid black;
+    border-bottom: 2px solid red;
     text-align: center;
     background-color: #FFFFFF;
     padding: 20px;
     margin: auto;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 5px black;
    
 }
 tr:nth-last-child(odd){
     background-color: #F3F3F3;
+    border: 1px solid lightgrey;
+
+}
+
+tr:nth-last-child(odd){
+
 }
 body{
-    text-align: center;
+    
     background-color: #FBE4E4;
     justify-content: left;
     margin: auto;
    
 }
-
+.h6{
+    margin: auto;
+    margin-left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 td,tr,th{
     padding: 20px;
 }
